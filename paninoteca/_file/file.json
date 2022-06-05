@@ -1,0 +1,151 @@
+{
+    "menu" :[
+        {
+            "panini_menu" :[
+                {
+                    "panino" :
+                        {
+                            "idprodotto": 7,
+                            "tipo": "panino",
+                            "nome": "melomangio",
+                            "descrizione": "prosciutto cotto, parmigiano bianca, provola, maionese, insalata",
+                            "prezzo": 5,
+                            "dimensione": null  
+                        }
+                },
+                {
+                    "panino" :
+                        {
+                            "idprodotto": 8,
+                            "tipo": "panino",
+                            "nome": "porcino",
+                            "descrizione": "porchetta, porcino alla piastra, insalata, maionese",
+                            "prezzo": 5.5,
+                            "dimensione": null  
+                        }
+                }
+            ]
+        }, 
+        {
+            "bevande_menu" :[
+                {
+                    "bevanda" :
+                        {
+                            "idprodotto": 1,
+                            "tipo": "bevanda",
+                            "nome": "fanta",
+                            "descrizione": null,
+                            "prezzo": 2.5,
+                            "dimensione": "small" 
+                        }
+                },
+                {
+                    "bevanda" :
+                        {
+                            "idprodotto": 2,
+                            "tipo": "bevanda",
+                            "nome": "fanta",
+                            "descrizione": null,
+                            "prezzo": 3,
+                            "dimensione": "regular" 
+                        }
+                    
+                },
+                {
+                    "bevanda" :
+                        {
+                            "idprodotto": 3,
+                            "tipo": "bevanda",
+                            "nome": "fanta",
+                            "descrizione": null,
+                            "prezzo": 3.5,
+                            "dimensione": "large" 
+                        }
+                    
+                },
+                {
+                    "bevanda" :
+                        {
+                            "idprodotto": 4,
+                            "tipo": "bevanda",
+                            "nome": "coca cola",
+                            "descrizione": null,
+                            "prezzo": 2.5,
+                            "dimensione": "small" 
+                        }
+                    
+                },
+                {
+                    "bevanda" :
+                        {
+                            "idprodotto": 5,
+                            "tipo": "bevanda",
+                            "nome": "coca cola",
+                            "descrizione": null,
+                            "prezzo": 3,
+                            "dimensione": "regular" 
+                        }
+                    
+                },
+                {
+                    "bevanda" :
+                        {
+                            "idprodotto": 6,
+                            "tipo": "bevanda",
+                            "nome": "coca cola",
+                            "descrizione": null,
+                            "prezzo": 3.5,
+                            "dimensione": "large" 
+                        }
+                    
+                }
+
+            ]
+        },
+        {
+            "piadine_menu" :[
+                {
+                    "piadina" :
+                        {
+                            "idprodotto": 9,
+                            "tipo": "piadina",
+                            "nome": "bomba",
+                            "descrizione": "speck, rucola, gongorzola",
+                            "prezzo": 6,
+                            "dimensione": null  
+                        }
+                    
+                },
+                {
+                    "piadina" :
+                        {
+                            "idprodotto": 10,
+                            "tipo": "piadina",
+                            "nome": "ghiottona",
+                            "descrizione": "hamburger, BBQ, lattuga, funghi porcini, cheddar",
+                            "prezzo": 7.5,
+                            "dimensione": null  
+                        }
+                    
+                }
+            ]
+        },
+        {
+            "dolci_menu" :[
+                {
+                    "dolce" :
+                        {
+                            "idprodotto": 11,
+                            "tipo": "dolce",
+                            "nome": "tiramisù",
+                            "descrizione": null,
+                            "prezzo": 3.5,
+                            "dimensione": null  
+                        }
+                    
+                }
+            ]
+        }
+
+    ]
+}
