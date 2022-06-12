@@ -1,0 +1,12 @@
+.corpo{
+    width: 500px;
+    margin: auto;
+    padding: 1%;
+    margin-top: 12.5%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#contenitore_menu{
+    margin: auto;
+}

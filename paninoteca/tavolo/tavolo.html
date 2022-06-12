@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../assets/_css/contorno.css">
+    <link rel="stylesheet" href="./../assets/_css/sfondo.css">
     <title>Tavolo</title>
 </head>
 <body>
-    <h1>Tavolo</h1>
+    <div class="corpo">
+        <h1>Tavolo</h1>
 
-    <form action="tav_controllo.php" method="post">
-        Numero tavolo: <input type="number" name="tavolo"><br>
-        Numero persone: <input type="number" name="persone"><br><br>
-        <input type="submit" value="conferma">
-    </form>
+        <form action="tav_controllo.php" method="post">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Numero tavolo:</label>
+                <input type="number" name="tavolo" class="form-control" placeholder="Enter numero del tavolo">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Numero persone:</label>
+                <input type="number" name="persone" class="form-control" placeholder="Enter numero delle persone">
+            </div>
+            <input type="submit" class="btn btn-primary" value="conferma">
+        </form>
+    </div>
+    
 </body>
 </html>

@@ -5,11 +5,11 @@ $stringa = $_GET["cont"];
 $Ntavolo = $_GET["n_tavolo"];
 
 
-print_r(explode("_", $stringa));
+$divisa = explode("_", $stringa);
 
-// suddividere la stringa in differenti modi cercado di prendere il costo_totale, la quantità e il nome del prodotto
-// per inserirei dati interessati
+$spesa = $divisa[count($divisa)-2];
 
-// inserire i dati e andare alla pagina monitor_cucina.php
-// dove il preparatore di panini può visualizzare l'ordine
+$conn->query("insert into ordine(spesa_tot, codtavolo) values ($spesa, $Ntavolo);");
+
+header("location: ./monitor_cucina.php?ordine=$stringa");
 ?>
